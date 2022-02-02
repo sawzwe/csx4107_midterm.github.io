@@ -1,0 +1,15 @@
+{
+  "main.css": "testgpa/static/css/main.f845c3cf.chunk.css",
+  "main.js": "testgpa/static/js/main.91d8d324.chunk.js",
+  "main.js.map": "testgpa/static/js/main.91d8d324.chunk.js.map",
+  "static/css/1.696eba13.chunk.css": "testgpa/static/css/1.696eba13.chunk.css",
+  "static/js/1.eeb00dc7.chunk.js": "testgpa/static/js/1.eeb00dc7.chunk.js",
+  "static/js/1.eeb00dc7.chunk.js.map": "testgpa/static/js/1.eeb00dc7.chunk.js.map",
+  "runtime~main.js": "testgpa/static/js/runtime~main.88a1fd77.js",
+  "runtime~main.js.map": "testgpa/static/js/runtime~main.88a1fd77.js.map",
+  "static/css/main.f845c3cf.chunk.css.map": "testgpa/static/css/main.f845c3cf.chunk.css.map",
+  "static/css/1.696eba13.chunk.css.map": "testgpa/static/css/1.696eba13.chunk.css.map",
+  "index.html": "testgpa/index.html",
+  "precache-manifest.7eedc9d8e33b7a6f016baedc66263563.js": "testgpa/precache-manifest.7eedc9d8e33b7a6f016baedc66263563.js",
+  "service-worker.js": "testgpa/service-worker.js"
+}
