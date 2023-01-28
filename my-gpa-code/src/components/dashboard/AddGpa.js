@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { curriculum } from '../../cs-2019.json';
+import  {curriculum}  from '../../cs-2019.json';
 import "./dash.css"
 import {grades} from '../../utils/gradeList'
 
@@ -16,7 +16,10 @@ import {grades} from '../../utils/gradeList'
 //   { label: 'F', value: 0 },
 // ];
 
-const years = ['2022', '2021', '2020', '2019', '2018', '2017'];
+// const curriculum = require('../../cs-2019.json');
+// console.log(curriculum?.subjects);
+const years = ['2023','2022', '2021', '2020', '2019', '2018', '2017'];
+const semester = ['1','2','3']
 
 function AddGpa(props) {
   const { onAddResult, allResults, calculateTotalGpa } = props;
@@ -36,14 +39,14 @@ function AddGpa(props) {
   }, []);
 
   const addGpaHandler = () => {
-    console.log({
-      courseGroupName,
-      courseSubjects,
-      selectedGrade,
-      selectedSemester,
-      selectedYear,
-      selectedSubject,
-    });
+    // console.log({
+    //   courseGroupName,
+    //   courseSubjects,
+    //   selectedGrade,
+    //   selectedSemester,  
+    //   selectedYear,
+    //   selectedSubject,
+    // });
     const result = {
         year: selectedYear,
         semester: selectedSemester,
@@ -53,6 +56,7 @@ function AddGpa(props) {
     }
     onAddResult(result)
   };
+  
   return (
     <div className='login'>
       <div className='container'>
@@ -80,7 +84,7 @@ function AddGpa(props) {
                 value={selectedSemester}
                 onChange={(e) => setSelectedSemester(e.target.value)}
               >
-                {[1, 2, 3].map((item, i) => (
+                {semester.map((item, i) => (
                   <option key={i} value={item}>
                     {item}
                   </option>
