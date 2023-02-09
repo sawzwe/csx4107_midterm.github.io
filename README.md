@@ -10,6 +10,3 @@
 
 ![Your Repository's Stats](https://contrib.rocks/image?repo=sawzwe/hog-project)
 
-## 4. Profile View Counter
-
-![Profile View Counter](https://komarev.com/ghpvc/?username=sawzwe)
