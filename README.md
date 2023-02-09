@@ -8,5 +8,5 @@
 
 ## 3. Contributors Badge
 
-![Your Repository's Stats](https://contrib.rocks/image?repo=sawzwe/hog-project)
+![Your Repository's Stats](https://contrib.rocks/image?repo=wpiyaphon/hogProject)
 
